@@ -51,7 +51,7 @@
         },
         "Function": {
             "text-color": "#06287e",
-            "background-color": null,
+            "background-color": "#00769e",
             "bold": false,
             "italic": false,
             "underline": false
