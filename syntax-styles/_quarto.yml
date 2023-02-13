@@ -12,6 +12,7 @@ website:
         href: https://twitter.com
 format:
   html:
+    minimal: true
     theme: cosmo
     css: styles.css
     highlight-style: a11y-light-mod.theme
