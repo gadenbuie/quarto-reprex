@@ -183,7 +183,7 @@
             "underline": false
         },
         "Comment": {
-            "text-color": "#696969",
+            "text-color": "#ab1de5",
             "background-color": null,
             "bold": false,
             "italic": false,

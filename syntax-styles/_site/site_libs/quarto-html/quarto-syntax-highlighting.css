@@ -23,7 +23,7 @@
   --quarto-hl-ch-color: #008000;
   --quarto-hl-dt-color: #7928a1;
   --quarto-hl-fl-color: #a55a00;
-  --quarto-hl-co-color: #696969;
+  --quarto-hl-co-color: #ab1de5;
   --quarto-hl-cv-color: #696969;
   --quarto-hl-cn-color: #d91e18;
   --quarto-hl-sc-color: #00769e;
@@ -134,7 +134,7 @@ code span.fl {
 }
 
 code span.co {
-  color: #696969;
+  color: #ab1de5;
 }
 
 code span.cv {
