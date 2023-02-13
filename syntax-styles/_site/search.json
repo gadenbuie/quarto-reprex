@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n# Code borrowed from {palmerpenguins} docs\nmass_flipper <-\n  ggplot(\n    data = penguins,\n    aes(x = flipper_length_mm, y = body_mass_g)\n  ) +\n  geom_point(\n    aes(\n      color = species,\n      shape = species\n    ),\n    size = 3,\n    alpha = 0.8\n  ) +\n  scale_color_manual(values = c(\"darkorange\", \"purple\", \"cyan4\")) +\n  labs(\n    title = \"Penguin size, Palmer Station LTER\",\n    subtitle = \"Flipper length and body mass for Adelie, Chinstrap and Gentoo Penguins\",\n    x = \"Flipper length (mm)\",\n    y = \"Body mass (g)\",\n    color = \"Penguin species\",\n    shape = \"Penguin species\"\n  ) +\n  theme(\n    legend.position = c(0.2, 0.7),\n    plot.title.position = \"plot\",\n    plot.caption = element_text(hjust = 0, face = \"italic\"),\n    plot.caption.position = \"plot\"\n  )\n\nmass_flipper"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "syntax-styles",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 12, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nFeb 9, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  }
+]
